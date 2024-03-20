@@ -2,7 +2,21 @@ import streamlit as st
 from conversor import polar_a_cartesiana, cartesiana_a_polar
 
 def main():
-    st.title("Conversor de Coordenadas")
+    
+    st.set_page_config(
+        page_title="Fisica 1",
+       # page_icon="images/nekark-icon.png",
+    )
+    
+    hide_streamlit_style = """
+        <style>
+        MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        </style>
+    """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+    
+    st.title("Conversor de Coordenadass")
     conversion = st.selectbox("Selecciona la conversión", 
                             ("Polar a Cartesiana", 
                             "Cartesiana a Polar"))
