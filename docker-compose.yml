@@ -1,0 +1,14 @@
+# docker-compose.yml
+
+version: '3.8'
+
+services:
+  fisica: 
+    build:
+      context: .
+      dockerfile: Dockerfile  
+    image: fisica
+    container_name: fisica
+    restart: unless-stopped
+    ports:
+      - "8520:8501"
