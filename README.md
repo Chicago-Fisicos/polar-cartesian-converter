@@ -36,7 +36,7 @@ pip install -r requirements.txt
 streamlit run web.py
 ```
 
-The application will start running on `http://localhost:8501`.
+The application will start running at `http://localhost:8501`.
 
 5. Use the dropdown menu to select the desired conversion, input the values, and the result will be displayed.
 
