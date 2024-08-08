@@ -1,6 +1,6 @@
 # Coordinate Converter
 
-This is a simple coordinate conversion application built using Python and Streamlit. It allows users to convert between Cartesian and Polar coordinate systems.
+This is a simple coordinate conversion application built using Python and Streamlit. It allows users to convert from Cartesian to Polar coordinate systems and the other way round.
 
 
 ## Features
@@ -11,7 +11,7 @@ This is a simple coordinate conversion application built using Python and Stream
 
 ## Deployment
 
-The application is currently deployed on a Raspberry Pi 4 and can be accessed at https://fisica.chewer.net/.
+The application was deployed on a Raspberry Pi 4 and can be accessed at https://fisica.chewer.net/.
 
 
 ## Usage
@@ -38,15 +38,15 @@ streamlit run web.py
 
 The application will start running on `http://localhost:8501`.
 
-5. Use the dropdown to select the desired conversion, input the values, and the result will be displayed.
+5. Use the dropdown menu to select the desired conversion, input the values, and the result will be displayed.
 
 ## Docker
 
-The project also includes a Dockerfile and a `docker-compose.yml` file, allowing you to run the application in a Docker container.
+The project also includes a `Dockerfile` and a `docker-compose.yml` file, allowing you to run the application in a Docker container.
 
 To build and run the Docker container:
 ```
-docker compose up --detach --build
+docker compose up
 ```
 
 The application will be available at `http://localhost:8520`.
@@ -54,10 +54,10 @@ The application will be available at `http://localhost:8520`.
 ## Project Structure
 
 - `conversor.py`: Contains the functions for converting between Cartesian and Polar coordinates.
-- `web.py`: The Streamlit application that provides the user interface for the coordinate converter.
+- `web.py`: Provides the user interface for the coordinate converter.
 - `Dockerfile`: Defines the Docker image for the application.
 - `docker-compose.yml`: Configures the Docker Compose setup for the application.
-- `deploy.sh`: A script for pulling the latest changes from the Git repository and rebuilding the Docker container.
+- `deploy.sh`: Pulls the latest changes from the Git repository and rebuilding the Docker container.
 - `requirements.txt`: Lists the Python dependencies required for the application.
 
 
