@@ -16,7 +16,7 @@ def main():
     """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
     
-    st.title("Conversor de Coordenadass")
+    st.title("Conversor de Coordenadas")
     conversion = st.selectbox("Selecciona la conversión", 
                             ("Polar a Cartesiana", 
                             "Cartesiana a Polar"))
