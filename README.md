@@ -60,3 +60,6 @@ The application will be available at `http://localhost:8520`.
 - `deploy.sh`: A script for pulling the latest changes from the Git repository and rebuilding the Docker container.
 - `requirements.txt`: Lists the Python dependencies required for the application.
 
+
+## Screenshots
+![](assets/screenshot.png)
