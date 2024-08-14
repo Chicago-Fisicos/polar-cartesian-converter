@@ -14,7 +14,7 @@ This is a simple coordinate conversion application built using Python and Stream
 The application was deployed on a Raspberry Pi 4 and can be accessed at https://fisica.chewer.net/.
 
 
-## Usage
+## How to run?
 
 1. Clone the repository:
 ```
