@@ -1,6 +1,6 @@
 # Coordinate Converter
 
-This is a simple coordinate conversion application built using Python and Streamlit. It allows users to convert from Cartesian to Polar coordinate systems and the other way round.
+This is a simple coordinate conversion application built using Python and Streamlit, that I created for the subject 'Física 1'. It allows users to convert from Cartesian to Polar coordinate systems and the other way round. 
 
 
 ## Features
